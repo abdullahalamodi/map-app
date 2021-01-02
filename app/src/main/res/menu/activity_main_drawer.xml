@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_current"
+            android:icon="@drawable/ic_map_24"
+            android:title="current location" />
+        <item
+            android:id="@+id/nav_schools"
+            android:icon="@drawable/ic_school_24"
+            android:title="schools" />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/ic_restaurant_24"
+            android:title="restaurants" />
+        <item
+            android:id="@+id/nav_hotels"
+            android:icon="@drawable/ic_hotel_24"
+            android:title="hotels" />
+        <item
+        android:id="@+id/nav_markets"
+        android:icon="@drawable/ic_market_24"
+        android:title="markets" />
+        <item
+            android:id="@+id/nav_stadiums"
+            android:icon="@drawable/ic_stadium_24"
+            android:title="stadiums" />
+    </group>
+</menu>
